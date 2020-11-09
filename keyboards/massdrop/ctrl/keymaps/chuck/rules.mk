@@ -3,7 +3,7 @@
 # BOOTMAGIC_ENABLE = full		# Virtual DIP switch configuration
 # BOOTMAGIC_ENABLE = lite
 # AUTO_SHIFT_ENABLE = yes      	# Auto Shift
-NKRO_ENABLE = no  	         	# USB Nkey Rollover
+NKRO_ENABLE = yes  	         	# USB Nkey Rollover
 DYNAMIC_MACRO_ENABLE = yes		# Dynamic macro recording and play
 # MOUSEKEY_ENABLE = yes			# Enable mouse control keycodes. Increases firmware size.
 # TAP_DANCE_ENABLE = yes		# Enable tap dance keys
@@ -13,3 +13,4 @@ EXTRAKEY_ENABLE = yes			# Audio control and System control
 RAW_ENABLE = yes				# Raw HID
 # COMBO_ENABLE					# Key combo feature
 # LEADER_ENABLE					# Enable leader key chording
+KEYBOARD_SHARED_EP = no
